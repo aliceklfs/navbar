@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 500vh;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left:0;
+    transition: .5s;
+}
+
+/* EFEITO DE ROLAGEM DO MENU */
+header.rolagem{
+    background-color: #ffffff;
+    padding: 20px 4%;
+}
+
+header.rolagem a {
+    color: #ffae81;
+}
+
+header.rolagem a:hover {
+    color:#fe775a;
+}
+/* FIM EFEITO DE ROLAGEM DO MENU */
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+header ul li a:hover {
+    color: #ffae81;
+    transition: .3s;
+}
+
+.btn-contato button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #ffae81;
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover {
+    background-color: #fe775a;
+    transition: .3s;
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(./image/por-do-sol-e-silhuetas-de-arvores-nas-montanhas-generative-ai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
